@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="100" src="(https://github.com/JohnDev19/PasteGo/blob/7de1b3ac4244a9cb52b38cfc32ee6de74a033693/IMG_20231015_103745.jpg)">
+  <img height="100" src="(https://raw.githubusercontent.com/JohnDev19/PasteGo/main/IMG_20231015_103745.jpg)">
 </div>
 
 # What is PasteGo?
