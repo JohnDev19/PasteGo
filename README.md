@@ -1,10 +1,10 @@
 <div align="center">
-  <img height="100" src="https://raw.githubusercontent.com/Augustquinn/PasteGO/main/IMG_20231015_103745.jpg">
+  <img height="100" src="(https://github.com/JohnDev19/PasteGo/blob/7de1b3ac4244a9cb52b38cfc32ee6de74a033693/IMG_20231015_103745.jpg)">
 </div>
 
 # What is PasteGo?
 
-[PasteGo](https://augustquinn.github.io/PasteGO/) is a simple and secure paste service that stores your data entirely in the link, without any database or back-end code. Easily share your text, code, or images with others, and they can access it without needing an account. It is an open-source tool that allows you to store and share any text, code, or image with a unique link. It's simple, secure, and doesn't require an account.
+[PasteGo](https://johndev19.github.io/PasteGo/) is a simple and secure paste service that stores your data entirely in the link, without any database or back-end code. Easily share your text, code, or images with others, and they can access it without needing an account. It is an open-source tool that allows you to store and share any text, code, or image with a unique link. It's simple, secure, and doesn't require an account.
 
 However, what makes NoPaste special is that it works with **no database**, and **no back-end code**. Instead, the data is compressed and **stored entirely in the link** that you share, nowhere else!
 
@@ -45,7 +45,7 @@ Here is an example of generated code and how it looks (click on the screenshot t
     width="100%"
     height="243"
     frameborder="0"
-    src="https://augustquinn.github.io/PasteGO/?l=py#XQAAAQAbAQAAAAAAAAA0m0pnuFI8c+qagMoNTEcTIfyUWbZjtjmBYcmJSzoNwS5iVMWHzvowv3IPM0vOG5cjrtDRTSVP/0biTIrrahfmbkuMQBBeSiSGpaJOqYJiKmUDYn2Gp1RtWE6gm8fLHMB4eyZ3+rEbUQwWyMcmWqvZ7m96RUeFyZdYbE85JGvhghqF8cyPB0ZjV0OQWsDxn5O5ysMrIcL+pKPk89EtLjAHhA1LZL9F3hzAtTx7I+GlyrxhhXGxAN//CvtaAA=="
+    src="https://johndev19.github.io/PasteGo/?l=py#XQAAAQAbAQAAAAAAAAA0m0pnuFI8c+qagMoNTEcTIfyUWbZjtjmBYcmJSzoNwS5iVMWHzvowv3IPM0vOG5cjrtDRTSVP/0biTIrrahfmbkuMQBBeSiSGpaJOqYJiKmUDYn2Gp1RtWE6gm8fLHMB4eyZ3+rEbUQwWyMcmWqvZ7m96RUeFyZdYbE85JGvhghqF8cyPB0ZjV0OQWsDxn5O5ysMrIcL+pKPk89EtLjAHhA1LZL9F3hzAtTx7I+GlyrxhhXGxAN//CvtaAA=="
 ></iframe>
 ```
 
@@ -95,11 +95,11 @@ PasteGo links can be created easily from your system's command line:
 
 ```bash
 # Linux
-echo -n 'Hello World' | lzma | base64 -w0 | xargs -0 printf "https://augustquinn.github.io/PasteGO/#%s\n"
+echo -n 'Hello World' | lzma | base64 -w0 | xargs -0 printf "https://johndev19.github.io/PasteGo/#%s\n"
 
 # Mac
-echo -n 'Hello World' | lzma | base64 | xargs -0 printf "https://augustquinn.github.io/PasteGO/#%s\n"
+echo -n 'Hello World' | lzma | base64 | xargs -0 printf "https://johndev19.github.io/PasteGo/#%s\n"
 
 # Windows / WSL / Linux
-echo -n 'Hello World' | xz --format=lzma | base64 -w0 | printf "https://augustquinn.github.io/PasteGO/#%s\n" "$(cat -)"
+echo -n 'Hello World' | xz --format=lzma | base64 -w0 | printf "https://johndev19.github.io/PasteGo/#%s\n" "$(cat -)"
 ```
